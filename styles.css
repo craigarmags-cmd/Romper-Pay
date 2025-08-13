@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0 5px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.pay-button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.zelle {
+    background-color: #6d1ed4;
+}
+
+.zelle:hover {
+    background-color: #5a17ad;
+}
+
+.cashapp {
+    background-color: #00c244;
+}
+
+.cashapp:hover {
+    background-color: #00a63a;
+}
