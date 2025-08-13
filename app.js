@@ -1,1 +1,1 @@
-// No JS functionality needed yet
+// JS can be added for interactivity later

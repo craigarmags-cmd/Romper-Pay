@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #111;
+    color: white;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -18,11 +19,18 @@ h1 {
 
 .tagline {
     font-size: 1.2rem;
-    color: #555;
+    color: #ffcc00;
+}
+
+.open-hours {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #0ff;
 }
 
 main {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .pay-button {
@@ -32,22 +40,35 @@ main {
     font-size: 1.2rem;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
-    transition: background 0.3s ease;
+    border-radius: 50px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.pay-button:hover {
+    transform: scale(1.05);
 }
 
 .zelle {
     background-color: #6d1ed4;
 }
 
-.zelle:hover {
-    background-color: #5a17ad;
-}
-
 .cashapp {
     background-color: #00c244;
 }
 
-.cashapp:hover {
-    background-color: #00a63a;
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery h2 {
+    color: #ff4444;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
